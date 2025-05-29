@@ -160,22 +160,3 @@ def min_value(board):
             if v == -1:
                 break
     return v, best_action
-
-
-# board = initial_state()
-# board[0][0] = X
-# board[0][1] = O
-# board[1][1] = X
-# board[2][0] = O
-# # board[2][2] = X
-
-
-# for row in board:
-#     print (row)
-
-# print ("Turn to move: ", player(board=board))
-# print("All available actions: ", actions(board=board))
-# print ("Result after move: ", result(board=board, action=(0,2)))
-# print ("Winner is: ", winner(board=board))
-# print ("Is the game over: ", terminal(board=board))
-# print ("The utility: ", utility(board=board))
